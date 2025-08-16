@@ -1,10 +1,12 @@
-import './App.css'
+import AutoComplete from './components/Autocomplete'
+import styles from './App.module.css';
 
 function App() {
   return (
-    <>
-      <h1>Hello I am trying to implement Google Autocomplete</h1>
-    </>
+    <div className={styles.container}>
+      <h2>Google Autocomplete</h2>
+      <AutoComplete />
+    </div>
   )
 }
 
