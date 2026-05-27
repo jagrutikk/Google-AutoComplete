@@ -4,7 +4,7 @@ import styles from './App.module.css';
 function App() {
   return (
     <div className={styles.container}>
-      <h2>Google Autocomplete</h2>
+      <h2>Google Autocomplete has been updated</h2>
       <AutoComplete />
     </div>
   )
